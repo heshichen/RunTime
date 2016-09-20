@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24814D881D91412D00FA30A6 /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 24814D871D91412D00FA30A6 /* TestObject.m */; };
 		24D1588F1D863EED00DEC479 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D1588E1D863EED00DEC479 /* main.m */; };
 		24D158921D863EED00DEC479 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D158911D863EED00DEC479 /* AppDelegate.m */; };
 		24D158951D863EED00DEC479 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D158941D863EED00DEC479 /* ViewController.m */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		24814D861D91412D00FA30A6 /* TestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestObject.h; sourceTree = "<group>"; };
+		24814D871D91412D00FA30A6 /* TestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObject.m; sourceTree = "<group>"; };
 		24D1588A1D863EED00DEC479 /* RunTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24D1588E1D863EED00DEC479 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		24D158901D863EED00DEC479 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -82,6 +85,8 @@
 				24D158A51D8640E600DEC479 /* Model.m */,
 				24E009101D9106680086B0A6 /* SecondViewController.h */,
 				24E009111D9106680086B0A6 /* SecondViewController.m */,
+				24814D861D91412D00FA30A6 /* TestObject.h */,
+				24814D871D91412D00FA30A6 /* TestObject.m */,
 			);
 			path = RunTime;
 			sourceTree = "<group>";
@@ -167,6 +172,7 @@
 				24E009121D9106680086B0A6 /* SecondViewController.m in Sources */,
 				24D158951D863EED00DEC479 /* ViewController.m in Sources */,
 				24D158921D863EED00DEC479 /* AppDelegate.m in Sources */,
+				24814D881D91412D00FA30A6 /* TestObject.m in Sources */,
 				24D158A91D86812C00DEC479 /* UIViewController+swizzling.m in Sources */,
 				24D1588F1D863EED00DEC479 /* main.m in Sources */,
 				24D158A61D8640E600DEC479 /* Model.m in Sources */,
